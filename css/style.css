@@ -1,0 +1,70 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.p-seven{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.p-six{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.p-four{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.r-seven{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* ------carousel decor-------  */
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  width: 50px;
+  height: 50px;
+}
+.carousel-item {
+  height: 50rem;
+}
+.carousel-item .img-overlay {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* -----icon decor-----  */
+.far{
+     color: #8563b1 ;
+}
+
+/* cards decor  */
+#package{
+    border:none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.package-hot{
+    background-color: #3F87F5;
+    color: white;
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.package-hot .far{
+ color: white;
+}
+/* -----hover decor----  */
+#package:hover{
+     background-color: #3F87F5;
+     color: white;
+     transform: scale(1.08);
+     transition: transform 1s ease-in-out;
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+#package:hover .btn{
+    background-color: white;
+    color: #3F87F5;
+}
+#package:hover .far{
+ color: white;
+}
